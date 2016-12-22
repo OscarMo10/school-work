@@ -1,0 +1,15 @@
+00 READ { number }
+01 LOAD { number }
+02 BRNG 10
+03 LOAD { total = @num(0) } 
+04 ADD { number }
+05 STOR { total }
+06 LOAD { count = @num(0) }
+07 ADD { one = @num(1) }
+08 STOR { count }
+09 BRAN 00
+10 LOAD { total }
+11 DIV { count }
+12 STOR { average }
+13 WRIT { average }
+14 HALT 99

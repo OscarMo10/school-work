@@ -1,0 +1,22 @@
+Homework 1
+Author: Oscar Montoya
+
+Included files: Question1.java      // driver program for question 1
+                Question2a.java     // driver program for question 2a
+                Question2b.java     // driver program for question 2b
+                Puzzle.java         // abstract super class, encapsulates common functionality
+                                    // used by EightTilePuzzle.java and FiveTilePuzzle.java
+
+                FiveTilePuzzle.java // class used to model problem 1
+                EightTilePuzzle.java // class used to model problem 2
+
+How to run:
+    // to compile files while inside directory containing included files
+    javac *
+
+    java Question1 [initialState] // run program for problem 1
+
+    java Question2a [initialState] // run program for problem 2a
+
+    java Question2b [initialState] // run program for problem 2b
+

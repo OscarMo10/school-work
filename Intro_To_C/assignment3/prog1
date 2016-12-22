@@ -1,0 +1,14 @@
+00 READ { count }
+01 LOAD { count }
+02 BRZR 12
+03 LOAD { total = @num(0) }
+04 READ { number }
+05 ADD { number }
+06 STOR { total }
+07 LOAD { count }
+08 SUB { one = @num(1) }
+09 STOR { count }
+10 BRZR 12
+11 BRAN 03
+12 WRIT { total }
+13 HALT 99

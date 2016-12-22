@@ -1,0 +1,9 @@
+00 READ { num1 }
+01 READ { num2 }
+02 LOAD { num1 }
+03 MOD { num2 }
+04 BRZR 07
+05 PRNT { not = @string(NOT) }
+06 BRAN 08
+07 PRNT { mult = @string(MULT) }
+08 HALT 99
